@@ -7,9 +7,10 @@ import { AppComponent } from './app.component';
 import { CarComponent } from './components/car/car.component';
 import { BrandComponent } from './components/brand/brand.component';
 import { NaviComponent } from './components/navi/navi.component';
+import { ColorComponent } from './components/color/color.component';
 
 @NgModule({
-  declarations: [AppComponent, CarComponent, BrandComponent, NaviComponent],
+  declarations: [AppComponent,CarComponent, BrandComponent, NaviComponent,ColorComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
