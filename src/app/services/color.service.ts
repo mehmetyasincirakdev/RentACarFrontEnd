@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class ColorService {
-  apiUrl = "http://localhost:61922/api/Colors/getall";
+  apiUrl = 'http://localhost:61922/api/Colors/getall';
   constructor(private httpClient: HttpClient) {}
 
   getColors(): Observable<ColorResponseModel> {
