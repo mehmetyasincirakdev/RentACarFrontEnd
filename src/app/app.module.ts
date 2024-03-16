@@ -9,9 +9,20 @@ import { BrandComponent } from './components/brand/brand.component';
 import { NaviComponent } from './components/navi/navi.component';
 import { ColorComponent } from './components/color/color.component';
 import { CustomerComponent } from './components/customer/customer.component';
+import { CarDetailComponent } from './components/car-detail/car-detail.component';
+import { RentalComponent } from './components/rental/rental.component';
 
 @NgModule({
-  declarations: [AppComponent,CarComponent, BrandComponent, NaviComponent,ColorComponent, CustomerComponent],
+  declarations: [
+    AppComponent,
+    CarComponent,
+    BrandComponent,
+    NaviComponent,
+    ColorComponent,
+    CustomerComponent,
+    CarDetailComponent,
+    RentalComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
