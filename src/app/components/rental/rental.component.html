@@ -1,0 +1,17 @@
+<table class="table table-bordered table-striped table-sm">
+    <thead>
+        <tr>
+            <td>Car Name</td>
+            <td>Brand Name</td>
+            <td>Color Name</td>
+            <td>Customer Name</td>
+        </tr>
+    </thead>
+
+    <tr *ngFor="let rental of rentals">
+        <td>{{rental.carName}}</td>
+        <td>{{rental.brandName}}</td>
+        <td>{{rental.colorName}}</td>
+        <td>{{rental.customerName}}</td>
+    </tr>
+</table>
