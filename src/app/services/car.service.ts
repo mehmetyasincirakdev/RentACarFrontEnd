@@ -11,8 +11,7 @@ import { ColorService } from './color.service';
 export class CarService {
   apiUrl = 'http://localhost:61922/api/Cars/getall';
   constructor(
-    private httpClient: HttpClient,
-    private colorService: ColorService
+    private httpClient: HttpClient
   ) {}
 
   getCars(): Observable<CarResponseModel> {
