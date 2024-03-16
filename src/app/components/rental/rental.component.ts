@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { RentalService } from '../../services/rental.service';
-import { Rental } from '../../models/rental';
+import { RentalService } from '../../services/rental-detail.service';
+import { Rental } from '../../models/rentalDetail';
 
 @Component({
   selector: 'app-rental',
